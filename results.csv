@@ -1,0 +1,4 @@
+method,cover_size,ratio_to_optimum,runtime_microseconds,valid_cover
+Exact branch-and-bound,14,1.0,5190.875,True
+Maximal-matching 2-approximation,22,1.5714,6.065,True
+Highest-degree greedy,14,1.0,68.47,True

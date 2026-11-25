@@ -1,0 +1,140 @@
+{
+  "dataset": "Zachary's Karate Club",
+  "vertices": 34,
+  "edges": 78,
+  "matching_size": 11,
+  "matching": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      31
+    ],
+    [
+      10,
+      34
+    ],
+    [
+      15,
+      33
+    ],
+    [
+      24,
+      26
+    ],
+    [
+      25,
+      28
+    ],
+    [
+      27,
+      30
+    ],
+    [
+      29,
+      32
+    ]
+  ],
+  "exact_search_calls": 981,
+  "results": [
+    {
+      "method": "Exact branch-and-bound",
+      "cover_size": 14,
+      "ratio_to_optimum": 1.0,
+      "runtime_microseconds": 5190.875,
+      "valid_cover": true,
+      "vertices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        24,
+        25,
+        27,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "method": "Maximal-matching 2-approximation",
+      "cover_size": 22,
+      "ratio_to_optimum": 1.5714,
+      "runtime_microseconds": 6.065,
+      "valid_cover": true,
+      "vertices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        15,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "method": "Highest-degree greedy",
+      "cover_size": 14,
+      "ratio_to_optimum": 1.0,
+      "runtime_microseconds": 68.47,
+      "valid_cover": true,
+      "vertices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        24,
+        25,
+        27,
+        32,
+        33,
+        34
+      ]
+    }
+  ],
+  "random_edge_order_2approx": {
+    "trials": 1000,
+    "seed": 6701,
+    "minimum": 16,
+    "median": 22.0,
+    "mean": 21.54,
+    "maximum": 26
+  }
+}
